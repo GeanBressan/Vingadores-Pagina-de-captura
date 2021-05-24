@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    text-align: center;
+    padding: 40px;
+}
+
+header img {
+    width: 148px;
+    filter: brightness(.1) invert(75%) sepia(60%);
+}
+
+.form-box {
+    background-color: rgba(255, 255, 255, 0.73);
+    max-width: 400px;
+    border: 1px solid rgba(120, 206, 254, 0.44);
+    border-radius: 8px;
+    padding: 10px;
+    margin: auto;
+}
+
+.form-box h1 {
+    font-size: 1.5rem;
+    margin: 25px 0;
+}
+
+input {
+    background-color: #B9BBBD;
+    border: none;
+    padding: 15px;
+    width: 80%;
+    margin: 8px 0;
+    color: #5C5B5B;
+    font-weight: 700;
+}
+
+::-webkit-input-placeholder {
+    color: #5C5B5B;
+}
+ 
+:-moz-placeholder {
+    color: #5C5B5B;
+}
+ 
+::-moz-placeholder {
+    color: #5C5B5B;
+}
+ 
+:-ms-input-placeholder {  
+    color: #5C5B5B;
+}
+
+input[type=submit] {
+    background-color: #3E6085;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+
+.instructors {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    display: flex;
+}
+
+.instructor {
+    display: flex;
+    align-items: flex-end;
+    padding: 0 10px;
+    
+}
+
+.instructor img {
+    width: 189px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-right: 15px;
+}
+
+.instructor p {
+    margin-top: 8px;
+    text-align: justify;
+}
+
+.comments {
+    background-image: url('../images/bg-comentarios.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+
+.comment {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.comment:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.comment:nth-child(2) img {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.comment img {
+    width: 134px;
+    height: 134px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 5px solid #ff9b00;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-weight: bolder;
+}
